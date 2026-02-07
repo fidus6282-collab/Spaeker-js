@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Zagalovok {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.wrapper {
+    background: #fff;
+    padding: 25px;
+    width: 340px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+textarea,
+select,
+input[type="range"],
+button {
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+}
+
+textarea {
+    width: 400px;
+    height: 90px;
+    resize: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea:focus {
+    border-color: #667eea;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 300px;
+}
+
+input[type="range"] {
+    cursor: pointer;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    width: 300px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+    width: 200px;
+}
+
+#speak {
+    background: #667eea;
+    color: #fff;
+}
+
+#speak:hover {
+    background: #5a67d8;
+}
+
+#stop {
+    background: #f44336;
+    color: #fff;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#stop:hover {
+    background: #e53935;
+}
